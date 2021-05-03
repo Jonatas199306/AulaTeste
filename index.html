@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD - API NodeJs, PostgreSQL</h1>
+    </header>
+    <main>
+        <div class="status">
+            <h2>Último registro atualizado</h2>
+            <input type="text" id="inpIdSt" class="inputs" placeholder="ID">
+            <input type="text" id="inpNameSt" class="inputs" placeholder="Nome">
+            <h3>Atualização a cada 5 s</h3>
+
+        </div>
+        <div class="box">
+            <input type="text" id="inpId" class="inputs" placeholder="ID">
+            <input type="text" id="inpName" class="inputs" placeholder="Nome">
+            <div class="boxbutton">
+                <button id="btnCad" class="button">Cadastrar</button>
+                <button id="btnConst" class="button">Consultar</button>
+                <button id="btnConstId" class="button">Consulta Id</button>
+                <button id="btnUpdate" class="button">Alterar</button>
+                <button id="btndel" class="button">Deletar</button>
+                <button id="btnTeste" class="button">Consulta Last</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>  </h1>
+    </footer>
+
+
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

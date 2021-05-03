@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    background: #f0f0f5;
+    -webkit-font-smoothing:antiase
+}
+
+.status{
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgb(203, 214, 233);
+    border: 170px;
+}
+
+.box{
+    height: 500px;
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+    background-color: rgb(203, 214, 233);
+    border-radius: 8px;
+    background-color: rgb(203, 214, 233);
+    border: 170px;
+}
+
+
+
+h1{
+    color: rgb(137, 157, 216);
+}
+
+h2{
+    color: rgb(33, 0, 150);
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+h3{
+    color: rgb(33, 0, 150);
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+
+.inputs{
+    height: 35px;
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 3px;
+    padding: 3px;
+
+
+}
+
+.boxbutton{
+    margin-top: 15px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 35px;
+    transition: filter 0.2s;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+header{
+    height: 50px;
+    background: #c3c3d1;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+footer{
+    height: 30px;
+    background: #d1d1da;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
